@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>volt calculator</title>
+</head>
+<body>
+    <div id="options">
+        <div id="menu">
+            volts:
+            <input type="text" id="volts" placeholder="v"/><br/>
+            power:
+            <input type="text" id="watts" placeholder="w"/><br/>
+            resistance:
+            <input type="text" id="res" placeholder="ohms"/><br/>
+            ampiers
+            <input type="text" id="amps" placeholder="amps"/><br/>
+            volts:
+            <p id="volts_result" class="results"></p>
+            ohms:
+            <p id="ohms_result" class="results"></p>
+            watts:
+            <p id="watts_result" class="results"></p>
+            amps:
+            <p id="amps_result" class="results"></p>
+            <button onclick="calc()">submit</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>

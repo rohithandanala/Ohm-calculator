@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#options{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 18);
+    color: aliceblue;
+}
+.results{
+    color: red;
+}
+button{
+    background-color: rgb(32, 32, 18);
+    color: bisque;
+    border: none;
+    margin: 10px;
+    font-size: 100%;
+    margin-left: 75px;
+}
